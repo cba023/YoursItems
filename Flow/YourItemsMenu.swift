@@ -11,10 +11,10 @@ import UIKit
 class YourItemsMenu: UIView, UICollectionViewDelegate, UICollectionViewDataSource {
 
     var collectionView: UICollectionView!;
-    let menuCount = 135;
+    let menuCount = 35;
     var menuWidth: CGFloat { return self.bounds.width }
-    let pgCtrlHeight: CGFloat = 15.0
-    var menuHeight: CGFloat { return self.bounds.height - 15.0 }
+    let pgCtrlHeight: CGFloat = 18.0
+    var menuHeight: CGFloat { return self.bounds.height - pgCtrlHeight}
     let menuRowCount: Int = 2
     let menuColCount: Int = 4
     var menuPageVolume: Int { return menuRowCount * menuColCount }
